@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+}
+.bolo{
+    width: 100%;
+    height: 600px;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(./uae-4-2048x1367\ 2.png);
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    font-family: "Montserrat" sans-serif;
+}
+.navbar img{
+    margin-top: 20px;
+    width: 150px; 
+    height: ;   
+}
+.navbar div{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar a{
+    color: white;
+}
+.nav-btn{
+    width: 100px;
+    height: 50px;
+    background-color: #07AF91;
+    border-radius: 20px;
+}
+.nav-btn p{
+    font-size: 15px;
+    padding: 25px;
+}
+.navbar-content{
+    position: relative;
+    max-width: 1000px;
+    margin: 48px auto 0;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+.navbar-content h1{
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: bold;
+    color: white;
+}
+.navbar-content h1 span{
+    background: #00b89c;
+    display: inline;
+}
+.navbar-content h1 .blue{
+    background: none;
+    color: white;
+}
+.subtitle{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #eeeeee;
+}
+.button{
+    display: inline-block;
+    margin-top: 12px;
+    padding: 12px 18px;
+    background: #1686ce;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.services{
+    max-width: 1000px;
+    margin: auto;
+    padding: 42px 20px;
+}
+.services h2{
+    color: #087bb8;
+    font-size: 22px;
+    margin-bottom: 48px;
+}
+.service-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.service-text{
+    width: 50%;
+}
+.service-text h3{
+    color: #087bb8;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.service-text p{
+    font-size: 12px;
+    line-height: 1.6;
+    color: #666666;
+}
+.service-text .more{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 30px;
+    background: #00b89c;
+    color: white;
+    border-radius: 4px;
+}
+.service-image{
+    width: 40%;
+    text-align: center;
+}
+.service-image img{
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
