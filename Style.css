@@ -111,11 +111,15 @@ body{
     color: #087bb8;
     font-size: 20px;
     margin-bottom: 12px;
+    margin-left: 110px;
+    margin-top: 20px;
 }
 .service-text p{
     color: #666;
     font-size: 13px;
     line-height: 1.6;
+    justify-content: center;
+    display: flex;
 }
 .service-text .more{
     display: inline-block;
@@ -124,6 +128,9 @@ body{
     background: #00b89c;
     color: white;
     border-radius: 4px;
+    justify-content: center;
+    margin-left: 110px;
+    
 }
 .service-image{
     width: 40%;
@@ -484,7 +491,7 @@ body{
     color: #1178B280;
 }
 .stat-card p{
-    font-size: 10px;
+    font-size: 13px;
     line-height: 1.5;
     color: #999;
 }
